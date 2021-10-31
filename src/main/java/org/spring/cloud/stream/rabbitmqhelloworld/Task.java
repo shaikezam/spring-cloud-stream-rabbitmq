@@ -1,4 +1,4 @@
-package org.spring.cloud.stream.rabbitmqkafkahelloworld;
+package org.spring.cloud.stream.rabbitmqhelloworld;
 
 public class Task {
     private String id;

@@ -1,6 +1,5 @@
-package org.spring.cloud.stream.rabbitmqkafkahelloworld;
+package org.spring.cloud.stream.rabbitmqhelloworld;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.MessageBuilder;

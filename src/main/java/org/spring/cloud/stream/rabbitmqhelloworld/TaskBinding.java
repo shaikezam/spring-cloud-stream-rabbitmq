@@ -1,4 +1,4 @@
-package org.spring.cloud.stream.rabbitmqkafkahelloworld;
+package org.spring.cloud.stream.rabbitmqhelloworld;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;

@@ -18,4 +18,4 @@ Delete All Images
 
 Run the app
 
-* `http://localhost:4000`
+* Server listens to port `8081`

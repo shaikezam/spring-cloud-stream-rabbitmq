@@ -15,7 +15,3 @@ Delete All Containers
 Delete All Images
 
 * `docker rmi $(docker images -q)`
-
-Run the app
-
-* Server listens to port `8081`

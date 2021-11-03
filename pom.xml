@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.spring.cloud.stream</groupId>
-    <artifactId>rabbiqma-hello-world</artifactId>
+    <artifactId>rabbitmq-hello-world-imperative-programming</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rabbiqma-hello-world</name>
+    <name>rabbitmq-hello-world-imperative-programming</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
@@ -45,6 +45,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-stream-test-support</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
         </dependency>
     </dependencies>
 

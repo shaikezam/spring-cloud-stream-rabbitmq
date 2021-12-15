@@ -1,4 +1,4 @@
-package shaike.zam.spring.cloud.stream.rabbitmqhelloworldfunctionalprogramming;
+package shaike.zam.spring.cloud.stream.rabbitmqimperativeprogramming;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,15 +12,15 @@ import org.springframework.scheduling.annotation.Scheduled;
 @SpringBootApplication
 @EnableBinding(TaskBinding.class)
 @EnableScheduling
-public class RabbitMQHelloWorldApplication {
+public class SpringCloudStreamRabbitMQImperativeProgramming {
 
     private MessageChannel messageChannel;
 
     public static void main(String[] args) {
-        SpringApplication.run(RabbitMQHelloWorldApplication.class, args);
+        SpringApplication.run(SpringCloudStreamRabbitMQImperativeProgramming.class, args);
     }
 
-    public RabbitMQHelloWorldApplication(TaskBinding taskBinding) {
+    public SpringCloudStreamRabbitMQImperativeProgramming(TaskBinding taskBinding) {
         this.messageChannel = taskBinding.outboundTasks();
     }
 

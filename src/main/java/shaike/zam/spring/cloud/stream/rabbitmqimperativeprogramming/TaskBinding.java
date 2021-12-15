@@ -1,4 +1,4 @@
-package shaike.zam.spring.cloud.stream.rabbitmqhelloworldfunctionalprogramming;
+package shaike.zam.spring.cloud.stream.rabbitmqimperativeprogramming;
 
 import org.springframework.cloud.stream.annotation.Input;
 import org.springframework.cloud.stream.annotation.Output;

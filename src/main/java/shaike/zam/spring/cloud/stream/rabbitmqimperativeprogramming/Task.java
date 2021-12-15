@@ -1,4 +1,4 @@
-package shaike.zam.spring.cloud.stream.rabbitmqhelloworldfunctionalprogramming;
+package shaike.zam.spring.cloud.stream.rabbitmqimperativeprogramming;
 
 import org.apache.commons.lang3.RandomStringUtils;
 
